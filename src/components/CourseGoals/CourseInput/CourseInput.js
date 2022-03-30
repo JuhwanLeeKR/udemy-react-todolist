@@ -56,10 +56,10 @@ const CourseInput = (props) => {
       <div
         className={`${styles['form-control']} ${!isValid && styles.invalid}`}
       >
-        <label>Course Goal</label>
+        <label>목표를 설정해주세요 💪</label>
         <input type="text" onChange={goalInputChangeHandler} />
       </div>
-      <Button type="submit">Add Goal</Button>
+      <Button type="submit">추가하기</Button>
     </form>
   );
 };
